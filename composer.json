@@ -1,0 +1,21 @@
+{
+	"name": "anker1992/china-stock-data",
+	"description": "提供国内财经门户网站股票相关数据,目前有新浪和凤凰网的数据",
+	"license": "MIT",
+	"authours": [
+		{
+			"name": "lizengcai",
+			"email": "lizengcai_vip@sina.com"
+		}
+	],
+	"require": {
+		"guzzlehttp/guzzle": "^6.3",
+		"mockery/mockery": "^1.2",
+		"phpunit/phpunit": "~5"
+	},
+	"autoload": {
+		"psr-4": {
+			"Anker1992\\ChinaStockData\\": "./src"
+		}
+	}
+}
