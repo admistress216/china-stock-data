@@ -17,5 +17,6 @@
 		"psr-4": {
 			"Anker1992\\ChinaStockData\\": "./src"
 		}
-	}
+	},
+	"minimum-stability": "dev"
 }
