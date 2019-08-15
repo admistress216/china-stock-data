@@ -27,7 +27,7 @@ $s->getKlineImgWeekly('600027'); // 获取股票K线图（周）
 $s->getKlineImgMonthly('600027'); // 获取股票K线图（月）
 $s->getTrendImg('600027'); // 获取股票分时图
 
-use Stabunkow\ChinaStockData\Sources\IfengStock;
+use Anker1992\ChinaStockData\Sources\IfengStock;
 
 $s = new IfengStock(); // 使用凤凰网股票数据源
 $s->getIndex(); // 获取股指
